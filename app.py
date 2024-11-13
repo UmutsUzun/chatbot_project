@@ -6,6 +6,10 @@ import random
 import logging
 from models import db, Category, Variation, Response, Type
 
+
+#  this is my project
+
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://chatbot_user:password@localhost/chatbot_db'
